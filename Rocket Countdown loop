@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rocket Launch Countdown</title>
+    <script>
+// wE ARE IN jAVA SCRIPT
+//Tim Schelander
+// Declare variables
+// This is the timer
+var timeleft = 10;
+// repeats the timer
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    timeleft = 10;
+  }
+    // seconds remaining note 
+  {
+    document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
+  }
+  timeleft -= 1;
+}, 1000);
+    </script>
+</head>
+<style>
+ body {
+      background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQQskg.img?h=864&w=1438&m=6&q=60&o=f&l=f);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  background-size: 100% 100%;
+  font-size: 48pt;
+  color: #FFFFFF;
+    }
+</style>
+<h2 style="color: red;">Rocket Launch Countdown </h2>
+<div id="countdown"></div>
+</body>
+</html>
