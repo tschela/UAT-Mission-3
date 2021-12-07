@@ -10,6 +10,7 @@ function StartTheCountdown() {
                 document.getElementById("countdown").innerHTML = "Blastoff!!!";
             }, 1000 * i);
         } else if (i > 6) {
+            // Timer half way point warning
             setTimeout(function () {
                 document.getElementById("countdown").innerHTML =
                     "Warning Less than half way to launch, time left = " + currTime + " " +" seconds remaining";
