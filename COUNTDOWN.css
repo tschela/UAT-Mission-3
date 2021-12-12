@@ -1,0 +1,31 @@
+
+    @font-face {
+    font-family: 'galaxy_girlregular';
+    src: url('galaxygirl-2oo0k-webfont.woff2') format('woff2'),
+         url('galaxygirl-2oo0k-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    h1{
+        font-family: 'galaxy_girlregular';
+        font-size: 15em;
+        color: green;
+    }
+
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    body {
+  background-image: url(https://www.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2018/02/14/challenger-launch.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
